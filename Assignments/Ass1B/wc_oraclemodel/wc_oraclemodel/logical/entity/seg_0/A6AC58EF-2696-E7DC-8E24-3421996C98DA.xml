@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6AC58EF-2696-E7DC-8E24-3421996C98DA" name="TOUR_PASSENGER">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 22:04:04 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tour_Date" id="CFF98AF5-9B34-148C-B415-C0203661BADD">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 22:04:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date of the tour passenger was on]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pay_Recieved" id="C1CEADD5-CB35-6B13-E0A2-49BFA3C03FAC">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 22:04:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment Recieved from passenger]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F081351-1AA5-B3A9-C021-B671A8D18BDE" name="TOUR_PASSENGER PK">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 22:04:54 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19A896A0-A3F3-67F4-5160-D31318BE9287</attributeRef>
+<attributeRef>CFF98AF5-9B34-148C-B415-C0203661BADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

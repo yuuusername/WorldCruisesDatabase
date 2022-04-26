@@ -40,6 +40,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1087" y="414" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A6AC58EF-2696-E7DC-8E24-3421996C98DA" otype="Entity" vid="5BA53F86-ACF0-50D5-9BFB-B16694428C2B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="610" y="57" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B4E1DDB8-EA63-6E18-4494-6CA4716579FE" otype="Entity" vid="AB5BB7DC-A510-0033-8879-1E3154F7655A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="796" y="400" width="170" height="110"/>
@@ -54,7 +58,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D710085F-509A-DC6C-7681-F44FD38E5AEE" otype="Entity" vid="311A4712-D4D0-E051-0215-69E89C919C6F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="735" y="125" width="170" height="110"/>
+<bounds x="781" y="251" width="170" height="110"/>
 </OView>
 </objectViews>
 <connectors>
