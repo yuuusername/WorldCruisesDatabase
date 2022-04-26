@@ -43,6 +43,22 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Cru_ID1" id="47B5818E-C9DC-2864-8D1F-A666C6513B77">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:44:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise Id number ]]></commentInRDBMS>
+<generatorID>421CF28B-3F57-DB9E-301E-ADBEA61AC94F</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>7972BA0B-F7E6-BFB3-025C-A97B8E7CC5E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B3E7890B-8C0C-5584-2DD0-C65F14B814E2" name="MANIFEST PK">
@@ -56,6 +72,7 @@
 <usedAttributes>
 <attributeRef>4A99F837-60BB-1D87-56BF-184CEBBBE3D0</attributeRef>
 <attributeRef>C596C80A-F5AE-0CA8-274F-DA24A74D7AEF</attributeRef>
+<attributeRef>47B5818E-C9DC-2864-8D1F-A666C6513B77</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
