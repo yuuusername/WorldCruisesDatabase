@@ -43,20 +43,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Country_Code" id="FC1995C1-C27C-1A2B-3E30-927D929104A5">
-<createdBy>dylan</createdBy>
-<createdTime>2022-04-26 14:33:04 UTC</createdTime>
-<commentInRDBMS><![CDATA[Country codes which are in two-letters]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Port_Pop" id="6DEB897A-5114-BA7F-3C62-0A4C1ED66DC8">
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-26 14:34:25 UTC</createdTime>
