@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4A59114-F0FF-9524-B4E8-C09A2133B413" name="PORT_VISITED">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-26 14:42:48 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cru_ID" id="4CBA7551-A3F2-9641-1FFB-2FE0E05DB4D6">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-26 14:43:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise identifier number]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Port_Code" id="841B2393-3CE6-4A01-4A55-A3E533741591">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-26 14:44:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code for the port visited]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Visit_Reason" id="F3600955-E2A0-6D8E-0121-A2E833BA2C1E">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-26 14:46:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visit reasons can only be two values, arrive and depart]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Visit_DateTime" id="2450A9C0-6EBD-2AEA-77BB-A7172627AB56">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-26 14:48:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[The date and time of the record of port visit]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72490054-C94F-FB41-DE02-B1AE52AE92B1" name="PORT_VISITED PK">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-26 14:43:24 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CBA7551-A3F2-9641-1FFB-2FE0E05DB4D6</attributeRef>
+<attributeRef>841B2393-3CE6-4A01-4A55-A3E533741591</attributeRef>
+<attributeRef>F3600955-E2A0-6D8E-0121-A2E833BA2C1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
