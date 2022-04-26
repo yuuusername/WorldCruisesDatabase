@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Cru_ID" id="4CBA7551-A3F2-9641-1FFB-2FE0E05DB4D6">
-<createdBy>dylan</createdBy>
-<createdTime>2022-04-26 14:43:10 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cruise identifier number]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Visit_Reason" id="F3600955-E2A0-6D8E-0121-A2E833BA2C1E">
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-26 14:46:25 UTC</createdTime>
@@ -67,7 +53,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4CBA7551-A3F2-9641-1FFB-2FE0E05DB4D6</attributeRef>
 <attributeRef>2450A9C0-6EBD-2AEA-77BB-A7172627AB56</attributeRef>
 </usedAttributes>
 </identifier>

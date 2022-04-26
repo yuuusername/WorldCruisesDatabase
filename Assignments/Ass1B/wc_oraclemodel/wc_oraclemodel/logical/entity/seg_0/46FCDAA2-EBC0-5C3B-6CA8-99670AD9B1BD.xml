@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Port_Code" id="58F24043-F51E-68AC-A181-B71CEF0F2451">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-26 10:01:04 UTC</createdTime>
-<commentInRDBMS><![CDATA[Port Code Attribute]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Tour_No" id="65C59F6F-3758-F92E-0547-6BEB2D756EDB">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 10:01:05 UTC</createdTime>
@@ -142,6 +128,22 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Port_Code" id="ED846CF4-AA20-867A-4FB7-503432AEDD9C">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:52:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
+<generatorID>677BB6AD-E405-8A15-4F43-4FE09F7661B4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>26DF89E2-16B7-527A-F8F7-7FC56A2E9C3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3C91F5D9-22B8-0483-14B9-077DF06BB169" name="TOUR PK">
@@ -153,8 +155,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>58F24043-F51E-68AC-A181-B71CEF0F2451</attributeRef>
 <attributeRef>65C59F6F-3758-F92E-0547-6BEB2D756EDB</attributeRef>
+<attributeRef>ED846CF4-AA20-867A-4FB7-503432AEDD9C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

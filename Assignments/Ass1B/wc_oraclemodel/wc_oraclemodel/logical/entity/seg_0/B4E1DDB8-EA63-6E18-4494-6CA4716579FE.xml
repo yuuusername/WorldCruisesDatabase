@@ -87,6 +87,22 @@
 <dataTypeScale>6</dataTypeScale>
 <ownDataTypeParameters>,9,6</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Country_Code" id="EACB04D6-41F2-FD7A-A68C-9798FDE1457C">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:54:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code of the country ]]></commentInRDBMS>
+<generatorID>3C94F0AC-085D-2311-299B-A6AA921C4FB2</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>1D73D863-7B69-13E5-4BDB-B6F383D01573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DF4E5982-20A2-FF9E-B7F5-8532882C2B4F" name="PORT PK">
