@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78ADA16A-06DC-745D-F4DF-3B5BA0293FE3" name="PORT_TEMPERATURE">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:36:41 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Port_Code" id="DBC6E02A-1CA0-E9B5-3BB3-C9F2B127E466">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:36:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code for port ]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Month" id="BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:37:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Months in the year]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Av_High " id="A35F838F-6562-00F8-A058-07D1CB85CF2A">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Highest average temperature for the month ]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Av_Low" id="4324DE7A-F1E3-356E-4A80-6AACC59D9BCE">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Lowest average temperature for the month ]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A889FB3-07CB-BCC7-C0A5-0E4EE1A185E6" name="PORT_TEMPERATURE PK">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:37:11 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBC6E02A-1CA0-E9B5-3BB3-C9F2B127E466</attributeRef>
+<attributeRef>BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
