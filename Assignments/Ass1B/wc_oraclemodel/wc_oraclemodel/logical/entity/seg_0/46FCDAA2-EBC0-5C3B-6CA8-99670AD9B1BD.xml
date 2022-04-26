@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46FCDAA2-EBC0-5C3B-6CA8-99670AD9B1BD" name="TOUR">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:00:33 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Port_Code" id="58F24043-F51E-68AC-A181-B71CEF0F2451">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port Code Attribute]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_No" id="65C59F6F-3758-F92E-0547-6BEB2D756EDB">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour Number]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_Name" id="5CF91F65-E91A-915A-2A20-5F1B72CFD465">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour Name]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_Desc" id="50486F52-7C38-CB18-7035-AB890116B6A1">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour Descripition]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_Hours_Req" id="E2B614DF-6F89-92A1-FA3F-94BD75D5A983">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hours Required for Tour]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_Cost_PP" id="EE6B8687-E3C9-4079-9D5D-799015A68A18">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour Cost Per Person]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_WheelC_Access" id="AE0102FC-DB22-D4D4-56B8-7E5A3FA4A058">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[WheelChair Access for the tour]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_Avail" id="9F7493D4-CB90-87B4-3BBE-97DEECCAF213">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour Availability]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tour_ST" id="361AB961-EA55-0FED-E735-5E6DE036310F">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:01:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour_StartTime]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C91F5D9-22B8-0483-14B9-077DF06BB169" name="TOUR PK">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 10:03:23 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58F24043-F51E-68AC-A181-B71CEF0F2451</attributeRef>
+<attributeRef>65C59F6F-3758-F92E-0547-6BEB2D756EDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
