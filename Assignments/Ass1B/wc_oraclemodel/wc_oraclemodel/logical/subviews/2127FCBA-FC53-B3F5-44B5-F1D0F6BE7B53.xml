@@ -36,5 +36,9 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="112" y="309" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D710085F-509A-DC6C-7681-F44FD38E5AEE" otype="Entity" vid="311A4712-D4D0-E051-0215-69E89C919C6F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="735" y="125" width="170" height="110"/>
+</OView>
 </objectViews>
 </Diagram>
