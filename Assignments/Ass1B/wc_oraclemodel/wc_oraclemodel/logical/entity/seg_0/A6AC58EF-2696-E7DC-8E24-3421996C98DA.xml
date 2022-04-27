@@ -40,6 +40,54 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Tour_No" id="12DA579B-E92E-CA2A-EB90-B62D469C0E38">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:55:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tour Number]]></commentInRDBMS>
+<generatorID>3BEFDA29-55C3-6A21-A17C-9BC33D05A956</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>65C59F6F-3758-F92E-0547-6BEB2D756EDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Port_Code" id="64A7FC35-650A-725D-7917-7A5EC9BC5954">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:55:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
+<generatorID>3BEFDA29-55C3-6A21-A17C-9BC33D05A956</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>ED846CF4-AA20-867A-4FB7-503432AEDD9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pass_ID" id="90B7C1EA-F29E-72D9-3AA0-968CE1E4B0C3">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:57:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger ID]]></commentInRDBMS>
+<generatorID>C8E5C7AC-748F-EFA2-CAC9-3C90FCFE0AE4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>B7AEA84F-4F36-1E39-B641-408CB7D47DD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0F081351-1AA5-B3A9-C021-B671A8D18BDE" name="TOUR_PASSENGER PK">
@@ -51,8 +99,10 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>19A896A0-A3F3-67F4-5160-D31318BE9287</attributeRef>
 <attributeRef>CFF98AF5-9B34-148C-B415-C0203661BADD</attributeRef>
+<attributeRef>12DA579B-E92E-CA2A-EB90-B62D469C0E38</attributeRef>
+<attributeRef>64A7FC35-650A-725D-7917-7A5EC9BC5954</attributeRef>
+<attributeRef>90B7C1EA-F29E-72D9-3AA0-968CE1E4B0C3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

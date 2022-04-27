@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSENGER TOUR_PASSENGER RELATIONSHIP" directorySegmentName="seg_0" id="C8E5C7AC-748F-EFA2-CAC9-3C90FCFE0AE4">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:57:43 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<sourcePk>98C49D64-1F1E-4E18-5BBB-832783A44DF6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48678922-D752-6D91-29FB-98A74E8DDB66</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6AC58EF-2696-E7DC-8E24-3421996C98DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
