@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CABIN_MAIFEST" directorySegmentName="seg_0" id="5899365E-A6C7-ADCC-DF5D-E28EB84B8971">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-27 06:30:39 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<sourcePk>BAAC4CEE-4BA7-8990-54D7-02F22E6B4D00</sourcePk>
+<targetPk>B3E7890B-8C0C-5584-2DD0-C65F14B814E2</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Has a record of</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0EB16DB9-6BDC-03B7-594C-8EA98391FD50</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8E2DBCF2-BEE6-7A08-834D-3E60BD3E4907</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

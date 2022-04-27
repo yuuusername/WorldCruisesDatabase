@@ -73,7 +73,24 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cru_ID" id="5E41B923-1054-BDE7-58D5-94C6221F55BE">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-27 06:32:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise Id number ]]></commentInRDBMS>
+<generatorID>5899365E-A6C7-ADCC-DF5D-E28EB84B8971</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A8A52B44-5385-FAB3-03D2-3907F12A83A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

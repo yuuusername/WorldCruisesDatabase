@@ -57,19 +57,51 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Add_Country" id="8DDB111E-2B8C-618C-2529-8D9027151D28">
+<Attribute name="Pass_ID" id="588A17E8-BCE3-0A6A-47E9-D636ABE80C96">
 <createdBy>marcu</createdBy>
-<createdTime>2022-04-26 22:17:46 UTC</createdTime>
-<commentInRDBMS><![CDATA[Country]]></commentInRDBMS>
+<createdTime>2022-04-27 06:35:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger ID]]></commentInRDBMS>
+<generatorID>84FFD51C-9DAE-4335-E55A-B8571F56E1EB</generatorID>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
+<referedAttribute>B7AEA84F-4F36-1E39-B641-408CB7D47DD7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country_Code" id="CB658BDC-1FC4-8746-EAE0-22D7A83F7DA9">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-27 06:36:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code of the country ]]></commentInRDBMS>
+<generatorID>528C7737-AF92-FB5B-E5FE-4335937886B9</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>1D73D863-7B69-13E5-4BDB-B6F383D01573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4BDD8B3-BC36-6520-2592-20E4EF1BCFED" name="ADDRESS PK">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-27 06:35:10 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>588A17E8-BCE3-0A6A-47E9-D636ABE80C96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

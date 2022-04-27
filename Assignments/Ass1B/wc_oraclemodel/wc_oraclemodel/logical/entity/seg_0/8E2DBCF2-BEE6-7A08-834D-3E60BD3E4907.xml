@@ -14,6 +14,24 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cru_ID" id="A8A52B44-5385-FAB3-03D2-3907F12A83A4">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-27 06:32:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise Id number ]]></commentInRDBMS>
+<generatorID>55995C06-5D6A-4362-59D0-906C87E0D38A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>7972BA0B-F7E6-BFB3-025C-A97B8E7CC5E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B3E7890B-8C0C-5584-2DD0-C65F14B814E2" name="MANIFEST PK">
 <createdBy>madhu</createdBy>
@@ -23,6 +41,9 @@
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>A8A52B44-5385-FAB3-03D2-3907F12A83A4</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

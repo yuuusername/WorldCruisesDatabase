@@ -126,6 +126,22 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Cru_ID" id="F2FD82F7-8DD8-C7B4-09FC-99A3A28520A5">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-27 06:34:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise Id number ]]></commentInRDBMS>
+<generatorID>D381A8B6-88A1-35CD-10E8-5884756A56CB</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>A8A52B44-5385-FAB3-03D2-3907F12A83A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="98C49D64-1F1E-4E18-5BBB-832783A44DF6" name="PASSENGER PK">
