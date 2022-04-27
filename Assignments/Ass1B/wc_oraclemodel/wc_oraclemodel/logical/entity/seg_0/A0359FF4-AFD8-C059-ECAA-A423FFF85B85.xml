@@ -29,34 +29,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Add_Town" id="0F181B80-C2DC-F060-188E-E145B69E21A1">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-26 22:17:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[Town]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Add_Postcode" id="0561B32F-D62A-2ED6-CB6F-B70F747D6E62">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-26 22:17:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[Postcode]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Pass_ID" id="588A17E8-BCE3-0A6A-47E9-D636ABE80C96">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-27 06:35:10 UTC</createdTime>
@@ -90,6 +62,22 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Town_Postcode" id="20A19552-F9D7-C254-DC67-8AE34879605F">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 12:23:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Postcode for the related town only accepting values from (1000,9999)]]></commentInRDBMS>
+<generatorID>8FD6C3CB-D225-BE70-258C-D3B46DB91462</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>9E00733F-E991-8EAC-0313-DB119397907F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D4BDD8B3-BC36-6520-2592-20E4EF1BCFED" name="ADDRESS PK">
@@ -102,6 +90,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>588A17E8-BCE3-0A6A-47E9-D636ABE80C96</attributeRef>
+<attributeRef>20A19552-F9D7-C254-DC67-8AE34879605F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
