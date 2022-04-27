@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="121EBC61-8004-E7BB-E999-EEDAC638BA6D" name="TOWN">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<generatorID>84616220-3CB1-FBDF-EA25-21BEA3627D95</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Town_Postcode" id="57C4D0CC-E150-B1FC-3931-F24E4DBF1699">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Postcode for the related town only accepting values from (1000,9999)]]></commentInRDBMS>
+<generatorID>9E00733F-E991-8EAC-0313-DB119397907F</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<constraintName>chk_postcode</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1000</beginValue>
+<endValue>9999</endValue>
+<description>Range of valid postcodes</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Town_Name" id="DD43FCC1-9C05-3C83-5624-8913C45E8623">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[The name of the town]]></commentInRDBMS>
+<generatorID>1D6F9CCB-D8CA-158E-5827-2BFB78536091</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25187FD1-C65C-D309-B7AC-65EAAA0ADFF0" name="TOWN_PK">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<generatorID>F3C34D4B-A74C-7489-4B66-F3BD5A0FC957</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57C4D0CC-E150-B1FC-3931-F24E4DBF1699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

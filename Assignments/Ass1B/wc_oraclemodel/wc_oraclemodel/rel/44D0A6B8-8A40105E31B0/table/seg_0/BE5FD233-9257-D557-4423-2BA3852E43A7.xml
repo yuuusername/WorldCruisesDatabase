@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE5FD233-9257-D557-4423-2BA3852E43A7" name="PORT_TEMPERATURE">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<generatorID>78ADA16A-06DC-745D-F4DF-3B5BA0293FE3</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Temp_Month" id="FA07FE25-07D4-C50F-1A43-798A08056422">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Months in the year (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)]]></commentInRDBMS>
+<generatorID>BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<constraintName>chk_month</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Apr" description="April"/>
+<valueDef value="Aug" description="August"/>
+<valueDef value="Dec" description="December"/>
+<valueDef value="Feb" description="Febuary"/>
+<valueDef value="Jan" description="January"/>
+<valueDef value="Jul" description="July"/>
+<valueDef value="Jun" description="June"/>
+<valueDef value="Mar" description="March"/>
+<valueDef value="May" description="May"/>
+<valueDef value="Nov" description="November"/>
+<valueDef value="Oct" description="October"/>
+<valueDef value="Sep" description="September"/>
+</listOfValues>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Port_Code" id="EA1F6294-CB81-7DD5-2BA3-AC66F9B65393">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
+<generatorID>74360BA9-3F72-ADEF-3772-0D2B8ED737ED</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8392BE90-A255-FD9D-5FF0-2AE949804129" referredColumn="522DB244-29AE-5A55-53CC-55DB064881AE"/>
+</associations>
+</Column>
+<Column name="Temp_High" id="8193CE3A-8D22-081B-5F5D-4434523700E0">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Highest average temperature for the month]]></commentInRDBMS>
+<generatorID>A35F838F-6562-00F8-A058-07D1CB85CF2A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>99</endValue>
+<description>Range of valid temperatures</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Temp_Low" id="85D0DEAB-C2F3-0E94-8604-715E3EE5542B">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Lowest average temperature for the month]]></commentInRDBMS>
+<generatorID>4324DE7A-F1E3-356E-4A80-6AACC59D9BCE</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC20F976-BDE6-9117-CE63-B94600674556" name="PORT_TEMPERATURE_PK">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<generatorID>8A889FB3-07CB-BCC7-C0A5-0E4EE1A185E6</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA07FE25-07D4-C50F-1A43-798A08056422"/>
+<colUsage columnID="EA1F6294-CB81-7DD5-2BA3-AC66F9B65393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="937C0D88-47C1-DD9A-5EA3-CF383D162FB6" name="port_port_temp">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<generatorID>4BA0B10F-C29A-79F4-0695-B17251FAF8B7</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA1F6294-CB81-7DD5-2BA3-AC66F9B65393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

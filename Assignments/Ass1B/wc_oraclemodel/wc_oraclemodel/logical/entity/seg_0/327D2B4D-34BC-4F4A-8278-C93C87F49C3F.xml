@@ -38,20 +38,12 @@
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
-<constraintName>chk_postcode</constraintName>
 <referedAttribute>9E00733F-E991-8EAC-0313-DB119397907F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>1000</beginValue>
-<endValue>9999</endValue>
-<description>Valid postcodes</description>
-</rangeDef>
-</listOfRanges>
 </Attribute>
 <Attribute name="Country_Code" id="87F69AE2-C4C8-D974-8CC2-5DFCD0DB8D5D">
 <createdBy>dylan</createdBy>
@@ -67,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Add_Street" id="9D952271-B70E-5401-C397-53C943564AB9">
 <createdBy>dylan</createdBy>
@@ -89,8 +81,9 @@
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-27 14:06:26 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -101,8 +94,9 @@
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-27 14:36:33 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="false"/>
 </engineerTo>
 <newElementsIDs>9D952271-B70E-5401-C397-53C943564AB9,94793852-AAA0-1218-6CAE-4155F7F07B4B,5DE1D2C7-12A4-F295-8583-19403DD6C3E6</newElementsIDs>
 <usedAttributes>

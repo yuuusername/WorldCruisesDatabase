@@ -41,7 +41,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Port_Code" id="5336DF6D-2736-229C-BAF1-DDA6F3F1F161">
@@ -58,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Visit_Reason" id="F3600955-E2A0-6D8E-0121-A2E833BA2C1E">
 <createdBy>dylan</createdBy>
@@ -85,8 +85,9 @@
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-26 14:43:24 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

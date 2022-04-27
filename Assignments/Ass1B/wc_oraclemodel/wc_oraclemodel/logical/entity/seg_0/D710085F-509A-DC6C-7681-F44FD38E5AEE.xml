@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D710085F-509A-DC6C-7681-F44FD38E5AEE" name="COUNTRY ">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D710085F-509A-DC6C-7681-F44FD38E5AEE" name="COUNTRY">
 <createdBy>madhu</createdBy>
 <createdTime>2022-04-26 11:41:22 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
@@ -49,8 +49,9 @@
 <createdBy>madhu</createdBy>
 <createdTime>2022-04-26 11:41:51 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

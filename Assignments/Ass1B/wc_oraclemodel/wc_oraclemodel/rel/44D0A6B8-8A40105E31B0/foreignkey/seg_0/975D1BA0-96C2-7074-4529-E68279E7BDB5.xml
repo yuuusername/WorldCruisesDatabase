@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="975D1BA0-96C2-7074-4529-E68279E7BDB5" containerWithKeyObject="5F01431F-25EB-073B-802A-295BF33237C7" localFKIndex="ABBEB38C-EE20-01FA-9B09-6BDA776B77BC" name="manifest_passenger">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 15:03:07 UTC</createdTime>
+<generatorID>8DE3A9A6-AA33-60B4-4B51-66BBB5450D89</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<referredTableLongName>PASSENGER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D3809B3-74A6-FD67-A21D-2864A06D7610</referredTableID>
+<keyObject>7BEA0F99-EFBA-5E96-3CFE-B90D463CF421</keyObject>
+<referredKeyID>7BEA0F99-EFBA-5E96-3CFE-B90D463CF421</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pass_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
