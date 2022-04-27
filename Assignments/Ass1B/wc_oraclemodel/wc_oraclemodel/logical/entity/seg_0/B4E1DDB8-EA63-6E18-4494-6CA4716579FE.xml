@@ -99,8 +99,9 @@
 <referedAttribute>1D73D863-7B69-13E5-4BDB-B6F383D01573</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
+<dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
