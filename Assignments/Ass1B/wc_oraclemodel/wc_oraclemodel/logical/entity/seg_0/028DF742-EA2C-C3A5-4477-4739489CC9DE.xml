@@ -29,6 +29,38 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Op_ID" id="FEC159F8-18F3-7FDC-4F55-A75F15775665">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 02:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification for operator]]></commentInRDBMS>
+<generatorID>B909F13F-5A82-C69C-A0A1-7745F77A3322</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>B92F1B41-DB42-6509-20F1-913A0461CF2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Country_Code" id="02DB65C3-9F29-2C24-D476-B333623CBE48">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 13:51:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code of the country ]]></commentInRDBMS>
+<generatorID>A7AA44E1-6680-4D9A-F71A-4C03612F37ED</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>1D73D863-7B69-13E5-4BDB-B6F383D01573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Ship_Name" id="7430C401-A7C7-5AB9-1916-CF9498FFC25E">
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-26 14:52:26 UTC</createdTime>
@@ -83,38 +115,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Ship_Coun_Reg" id="80D96DA2-F50A-0E18-2678-DBA6FDCFBD37">
-<createdBy>dylan</createdBy>
-<createdTime>2022-04-26 14:56:35 UTC</createdTime>
-<commentInRDBMS><![CDATA[The code of the country in which the ship is registered]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Op_ID" id="FEC159F8-18F3-7FDC-4F55-A75F15775665">
-<createdBy>dylan</createdBy>
-<createdTime>2022-04-27 02:16:40 UTC</createdTime>
-<commentInRDBMS><![CDATA[The unique identification for operator]]></commentInRDBMS>
-<generatorID>B909F13F-5A82-C69C-A0A1-7745F77A3322</generatorID>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<referedAttribute>B92F1B41-DB42-6509-20F1-913A0461CF2B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

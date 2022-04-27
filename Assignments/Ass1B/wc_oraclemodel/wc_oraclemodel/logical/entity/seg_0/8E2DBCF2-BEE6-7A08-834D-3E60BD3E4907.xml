@@ -28,8 +28,56 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pass_ID" id="03FAA8EA-91C1-8F6D-37DB-C55C2ADBCAC8">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 13:03:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger ID]]></commentInRDBMS>
+<generatorID>8DE3A9A6-AA33-60B4-4B51-66BBB5450D89</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>B7AEA84F-4F36-1E39-B641-408CB7D47DD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cab_ID" id="4EED48CA-48F1-8CE0-ED38-7C4845B54C6C">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 13:04:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cabin ID]]></commentInRDBMS>
+<generatorID>5899365E-A6C7-ADCC-DF5D-E28EB84B8971</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>79150C4C-DED1-5BD3-CA66-918C23F987E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ship_Code" id="15AC8920-415C-F364-A43C-9CA3AE586821">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 13:04:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ship unique identifer]]></commentInRDBMS>
+<generatorID>5899365E-A6C7-ADCC-DF5D-E28EB84B8971</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>94E34A4D-305D-3082-D221-EF415AA0EDB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -42,6 +90,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
+<attributeRef>03FAA8EA-91C1-8F6D-37DB-C55C2ADBCAC8</attributeRef>
+<attributeRef>4EED48CA-48F1-8CE0-ED38-7C4845B54C6C</attributeRef>
+<attributeRef>15AC8920-415C-F364-A43C-9CA3AE586821</attributeRef>
 <attributeRef>A8A52B44-5385-FAB3-03D2-3907F12A83A4</attributeRef>
 </usedAttributes>
 </identifier>

@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="operator_ship" directorySegmentName="seg_0" id="B909F13F-5A82-C69C-A0A1-7745F77A3322">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="country_ship" directorySegmentName="seg_0" id="A7AA44E1-6680-4D9A-F71A-4C03612F37ED">
 <createdBy>dylan</createdBy>
-<createdTime>2022-04-27 02:16:40 UTC</createdTime>
+<createdTime>2022-04-27 13:51:56 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
-<sourcePk>8969A35B-3D3D-F568-52F3-B2CDDC2F6430</sourcePk>
+<sourcePk>F7662E80-D2A4-1A3C-5BD8-1A57E8115D55</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>operates</nameOnSource>
+<nameOnSource>is_commissioned_at</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>C9E1BF00-106B-CDE2-C9FF-C89427E4E3B4</sourceEntity>
+<sourceEntity>D710085F-509A-DC6C-7681-F44FD38E5AEE</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>028DF742-EA2C-C3A5-4477-4739489CC9DE</targetEntity>
 <transferable>true</transferable>

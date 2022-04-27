@@ -8,9 +8,9 @@
 </engineerTo>
 <sourcePk>81428B0A-6CDE-D322-3B73-B45CB4CF0146</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>is_visited</nameOnSource>
+<nameOnSource>docks</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>C59B55C2-CF9A-7015-640C-AD8AC458A421</sourceEntity>

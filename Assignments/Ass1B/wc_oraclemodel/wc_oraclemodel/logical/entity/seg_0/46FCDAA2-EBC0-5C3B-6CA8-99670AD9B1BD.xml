@@ -29,6 +29,22 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Port_Code" id="ED846CF4-AA20-867A-4FB7-503432AEDD9C">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:52:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
+<generatorID>677BB6AD-E405-8A15-4F43-4FE09F7661B4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>26DF89E2-16B7-527A-F8F7-7FC56A2E9C3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Tour_Name" id="5CF91F65-E91A-915A-2A20-5F1B72CFD465">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 10:01:05 UTC</createdTime>
@@ -54,8 +70,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Tour_Hours_Req" id="E2B614DF-6F89-92A1-FA3F-94BD75D5A983">
 <createdBy>marcu</createdBy>
@@ -90,16 +106,21 @@
 <Attribute name="Tour_WheelC_Access" id="AE0102FC-DB22-D4D4-56B8-7E5A3FA4A058">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 10:01:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[WheelChair Access for the tour]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[WheelChair Access for the tour (Yes, No)]]></commentInRDBMS>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
+<constraintName>chk_Wheelc</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="No" description="No"/>
+<valueDef value="Yes" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Tour_Avail" id="9F7493D4-CB90-87B4-3BBE-97DEECCAF213">
 <createdBy>marcu</createdBy>
@@ -112,13 +133,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Tour_ST" id="361AB961-EA55-0FED-E735-5E6DE036310F">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 10:01:08 UTC</createdTime>
-<commentInRDBMS><![CDATA[Tour_StartTime]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Tour StartTime]]></commentInRDBMS>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
@@ -127,22 +148,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Port_Code" id="ED846CF4-AA20-867A-4FB7-503432AEDD9C">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-26 23:52:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
-<generatorID>677BB6AD-E405-8A15-4F43-4FE09F7661B4</generatorID>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<referedAttribute>26DF89E2-16B7-527A-F8F7-7FC56A2E9C3C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -8,14 +8,14 @@
 </engineerTo>
 <sourcePk>BAAC4CEE-4BA7-8990-54D7-02F22E6B4D00</sourcePk>
 <targetPk>B3E7890B-8C0C-5584-2DD0-C65F14B814E2</targetPk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>has_a_record_for</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>0EB16DB9-6BDC-03B7-594C-8EA98391FD50</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>8E2DBCF2-BEE6-7A08-834D-3E60BD3E4907</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

@@ -18,44 +18,31 @@
 <Attribute name="Temp_Month" id="BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC">
 <createdBy>madhu</createdBy>
 <createdTime>2022-04-26 11:37:16 UTC</createdTime>
-<commentInRDBMS><![CDATA[Months in the year]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Months in the year (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec)]]></commentInRDBMS>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
+<constraintName>chk_month</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Temp_High " id="A35F838F-6562-00F8-A058-07D1CB85CF2A">
-<createdBy>madhu</createdBy>
-<createdTime>2022-04-26 11:37:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[Highest average temperature for the month ]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Temp_Low" id="4324DE7A-F1E3-356E-4A80-6AACC59D9BCE">
-<createdBy>madhu</createdBy>
-<createdTime>2022-04-26 11:37:17 UTC</createdTime>
-<commentInRDBMS><![CDATA[Lowest average temperature for the month ]]></commentInRDBMS>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Apr" description="April"/>
+<valueDef value="Aug" description="August"/>
+<valueDef value="Dec" description="December"/>
+<valueDef value="Feb" description="Febuary"/>
+<valueDef value="Jan" description="January"/>
+<valueDef value="Jul" description="July"/>
+<valueDef value="Jun" description="June"/>
+<valueDef value="Mar" description="March"/>
+<valueDef value="May" description="May"/>
+<valueDef value="Nov" description="November"/>
+<valueDef value="Oct" description="October"/>
+<valueDef value="Sep" description="September"/>
+</listOfValues>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Port_Code" id="74360BA9-3F72-ADEF-3772-0D2B8ED737ED">
 <createdBy>madhu</createdBy>
@@ -71,7 +58,44 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Temp_High " id="A35F838F-6562-00F8-A058-07D1CB85CF2A">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Highest average temperature for the month]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>99</endValue>
+<description>Range of valid temperatures</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Temp_Low" id="4324DE7A-F1E3-356E-4A80-6AACC59D9BCE">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-26 11:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Lowest average temperature for the month]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

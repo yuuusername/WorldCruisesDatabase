@@ -29,6 +29,22 @@
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Country_Code" id="EACB04D6-41F2-FD7A-A68C-9798FDE1457C">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 23:54:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code of the country ]]></commentInRDBMS>
+<generatorID>3C94F0AC-085D-2311-299B-A6AA921C4FB2</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>1D73D863-7B69-13E5-4BDB-B6F383D01573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="Port_Name" id="F905AFBB-07C1-BA7D-E951-A944921B75AD">
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-26 14:30:58 UTC</createdTime>
@@ -68,9 +84,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>6</dataTypeScale>
-<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<ownDataTypeParameters>,10,6</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Port_Lat" id="AFFC7265-78F6-8199-1487-516C8123ADD7">
 <createdBy>dylan</createdBy>
@@ -83,26 +99,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>6</dataTypeScale>
-<ownDataTypeParameters>,9,6</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Country_Code" id="EACB04D6-41F2-FD7A-A68C-9798FDE1457C">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-26 23:54:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[Code of the country ]]></commentInRDBMS>
-<generatorID>3C94F0AC-085D-2311-299B-A6AA921C4FB2</generatorID>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<referedAttribute>1D73D863-7B69-13E5-4BDB-B6F383D01573</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,6</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

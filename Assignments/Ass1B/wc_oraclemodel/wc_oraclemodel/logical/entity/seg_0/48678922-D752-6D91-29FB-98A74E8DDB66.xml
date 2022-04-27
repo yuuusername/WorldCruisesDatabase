@@ -26,8 +26,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Add_ID" id="999DB765-010A-65CA-F66C-1A3BF3A86E3A">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 14:09:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique identifier for addresses]]></commentInRDBMS>
+<generatorID>817C02B8-917F-3D41-FBF0-82B3A2B11589</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>74F6872A-9CA6-EBC7-F6BC-274BB47F53AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Pass_FName" id="1FAC834C-E852-AA52-4697-551A0D48C5D5">
 <createdBy>marcu</createdBy>
@@ -60,16 +76,21 @@
 <Attribute name="Pass_Gender" id="192C8604-05CC-4740-38D8-13CEF78AC693">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 22:09:49 UTC</createdTime>
-<commentInRDBMS><![CDATA[Passenger Gender]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Passenger Gender (Male, Female)]]></commentInRDBMS>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
+<constraintName>chk_gender</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="Female" description="Female"/>
+<valueDef value="Male" description="Male"/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Pass_DOB" id="1547E13B-59C1-3A4C-D924-821FFCD69269">
 <createdBy>marcu</createdBy>
@@ -83,20 +104,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Pass_Guardian_ID" id="367C9AA6-5BB0-8DA8-3A78-8B3F98D4B2E9">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-26 22:09:49 UTC</createdTime>
-<ownerDesignName>wc_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Pass_Board_DateTime" id="2CEA99F1-6286-A771-EEB3-191C8FE8311A">
 <createdBy>marcu</createdBy>
@@ -125,21 +132,34 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cru_ID" id="F2FD82F7-8DD8-C7B4-09FC-99A3A28520A5">
-<createdBy>marcu</createdBy>
-<createdTime>2022-04-27 06:34:33 UTC</createdTime>
-<commentInRDBMS><![CDATA[Cruise Id number ]]></commentInRDBMS>
-<generatorID>D381A8B6-88A1-35CD-10E8-5884756A56CB</generatorID>
+<Attribute name="Pass_Street" id="19C5E21B-F0BD-528A-CA07-FFFDEEA05A34">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 13:46:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the street lived at]]></commentInRDBMS>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
-<referedAttribute>A8A52B44-5385-FAB3-03D2-3907F12A83A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pass_Guardian_ID" id="367C9AA6-5BB0-8DA8-3A78-8B3F98D4B2E9">
+<createdBy>marcu</createdBy>
+<createdTime>2022-04-26 22:09:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[The passenger ID of the guardian taking care of this minor]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
