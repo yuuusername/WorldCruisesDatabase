@@ -8,7 +8,8 @@
 </engineerTo>
 <sourcePk>81428B0A-6CDE-D322-3B73-B45CB4CF0146</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>RECORDED FOR</nameOnSource>
+<nameOnSource>has a record of</nameOnSource>
+<nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
