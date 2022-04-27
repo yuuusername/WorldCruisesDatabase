@@ -23,10 +23,15 @@
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
+<constraintName>chk_reason</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="arrive" description="ship/cruise has arrived at the port"/>
+<valueDef value="depart" description="ship/cruise has departed the port"/>
+</listOfValues>
 <ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Visit_DateTime" id="2450A9C0-6EBD-2AEA-77BB-A7172627AB56">
