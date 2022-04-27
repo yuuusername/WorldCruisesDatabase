@@ -52,11 +52,18 @@
 <engineerTo>
 <item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
 </engineerTo>
+<constraintName>chk_Cabclass</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;Balcony &apos;" description="Cabin with Balcony "/>
+<valueDef value="&apos;Interior &apos;" description="Interior cabin type "/>
+<valueDef value="&apos;Ocean View &apos;" description="Ocean View Cabin "/>
+<valueDef value="Suite" description="Suite Cabin "/>
+</listOfValues>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ship_Code" id="94E34A4D-305D-3082-D221-EF415AA0EDB8">
@@ -73,7 +80,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Cru_ID" id="5E41B923-1054-BDE7-58D5-94C6221F55BE">
 <createdBy>marcu</createdBy>
@@ -90,7 +97,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
