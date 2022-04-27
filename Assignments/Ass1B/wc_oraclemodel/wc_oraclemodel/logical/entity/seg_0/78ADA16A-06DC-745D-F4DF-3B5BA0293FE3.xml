@@ -57,6 +57,22 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Port_Code" id="74360BA9-3F72-ADEF-3772-0D2B8ED737ED">
+<createdBy>madhu</createdBy>
+<createdTime>2022-04-27 08:29:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
+<generatorID>4BA0B10F-C29A-79F4-0695-B17251FAF8B7</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>26DF89E2-16B7-527A-F8F7-7FC56A2E9C3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8A889FB3-07CB-BCC7-C0A5-0E4EE1A185E6" name="PORT_TEMPERATURE PK">
@@ -69,6 +85,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC</attributeRef>
+<attributeRef>74360BA9-3F72-ADEF-3772-0D2B8ED737ED</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
