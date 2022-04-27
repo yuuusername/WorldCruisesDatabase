@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Is Allocated" directorySegmentName="seg_0" id="D381A8B6-88A1-35CD-10E8-5884756A56CB">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="manifest_passenger" directorySegmentName="seg_0" id="D381A8B6-88A1-35CD-10E8-5884756A56CB">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-27 06:33:51 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
@@ -9,7 +9,7 @@
 <sourcePk>98C49D64-1F1E-4E18-5BBB-832783A44DF6</sourcePk>
 <targetPk>B3E7890B-8C0C-5584-2DD0-C65F14B814E2</targetPk>
 <identifying>false</identifying>
-<nameOnSource>has a record of</nameOnSource>
+<nameOnSource>is_allocated</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>

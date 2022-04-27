@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COUNTRY_CODE" directorySegmentName="seg_0" id="528C7737-AF92-FB5B-E5FE-4335937886B9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="country_address" directorySegmentName="seg_0" id="528C7737-AF92-FB5B-E5FE-4335937886B9">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-27 06:36:57 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
@@ -8,9 +8,9 @@
 </engineerTo>
 <sourcePk>F7662E80-D2A4-1A3C-5BD8-1A57E8115D55</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>refers_to</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>D710085F-509A-DC6C-7681-F44FD38E5AEE</sourceEntity>

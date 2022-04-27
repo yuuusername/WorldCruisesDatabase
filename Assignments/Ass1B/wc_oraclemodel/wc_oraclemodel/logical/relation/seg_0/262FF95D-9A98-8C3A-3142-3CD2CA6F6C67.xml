@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="port_port_visited" directorySegmentName="seg_0" id="262FF95D-9A98-8C3A-3142-3CD2CA6F6C67">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="port_docking" directorySegmentName="seg_0" id="262FF95D-9A98-8C3A-3142-3CD2CA6F6C67">
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-27 02:12:42 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>DF4E5982-20A2-FF9E-B7F5-8532882C2B4F</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>is_visited</nameOnSource>
+<nameOnSource>docks_at</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

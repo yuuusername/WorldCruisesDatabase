@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSENGER TOUR_PASSENGER RELATIONSHIP" directorySegmentName="seg_0" id="C8E5C7AC-748F-EFA2-CAC9-3C90FCFE0AE4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pass_pass_tour" directorySegmentName="seg_0" id="C8E5C7AC-748F-EFA2-CAC9-3C90FCFE0AE4">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 23:57:43 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>98C49D64-1F1E-4E18-5BBB-832783A44DF6</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>becomes</nameOnSource>
+<nameOnSource>goes_on</nameOnSource>
 <nameOnTarget>  </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

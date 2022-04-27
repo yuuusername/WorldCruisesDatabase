@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PORT_TOUR" directorySegmentName="seg_0" id="677BB6AD-E405-8A15-4F43-4FE09F7661B4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="port_tour" directorySegmentName="seg_0" id="677BB6AD-E405-8A15-4F43-4FE09F7661B4">
 <createdBy>marcu</createdBy>
 <createdTime>2022-04-26 23:52:03 UTC</createdTime>
 <ownerDesignName>wc_oraclemodel</ownerDesignName>
@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>DF4E5982-20A2-FF9E-B7F5-8532882C2B4F</sourcePk>
 <identifying>true</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>is_at</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Month" id="BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC">
+<Attribute name="Temp_Month" id="BE6A492A-1305-EB90-EE6C-8E7EE3EC10FC">
 <createdBy>madhu</createdBy>
 <createdTime>2022-04-26 11:37:16 UTC</createdTime>
 <commentInRDBMS><![CDATA[Months in the year]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Av_High " id="A35F838F-6562-00F8-A058-07D1CB85CF2A">
+<Attribute name="Temp_High " id="A35F838F-6562-00F8-A058-07D1CB85CF2A">
 <createdBy>madhu</createdBy>
 <createdTime>2022-04-26 11:37:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Highest average temperature for the month ]]></commentInRDBMS>
@@ -43,7 +43,7 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Av_Low" id="4324DE7A-F1E3-356E-4A80-6AACC59D9BCE">
+<Attribute name="Temp_Low" id="4324DE7A-F1E3-356E-4A80-6AACC59D9BCE">
 <createdBy>madhu</createdBy>
 <createdTime>2022-04-26 11:37:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Lowest average temperature for the month ]]></commentInRDBMS>
@@ -71,7 +71,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
