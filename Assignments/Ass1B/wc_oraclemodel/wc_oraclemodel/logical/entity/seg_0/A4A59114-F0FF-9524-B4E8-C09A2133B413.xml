@@ -47,6 +47,38 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Port_Code" id="5336DF6D-2736-229C-BAF1-DDA6F3F1F161">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 02:12:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[The code recorded to identify the port landed at in a cruise]]></commentInRDBMS>
+<generatorID>262FF95D-9A98-8C3A-3142-3CD2CA6F6C67</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>26DF89E2-16B7-527A-F8F7-7FC56A2E9C3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cru_ID" id="D1CAD7D3-6558-716F-457A-ACDE5C18A01A">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 02:13:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise Id number ]]></commentInRDBMS>
+<generatorID>1E0AB758-EAF8-F914-5662-92E613546F0F</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>7972BA0B-F7E6-BFB3-025C-A97B8E7CC5E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="72490054-C94F-FB41-DE02-B1AE52AE92B1" name="PORT_VISITED PK">
@@ -58,7 +90,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2450A9C0-6EBD-2AEA-77BB-A7172627AB56</attributeRef>
+<attributeRef>D1CAD7D3-6558-716F-457A-ACDE5C18A01A</attributeRef>
+<attributeRef>5336DF6D-2736-229C-BAF1-DDA6F3F1F161</attributeRef>
+<attributeRef>F3600955-E2A0-6D8E-0121-A2E833BA2C1E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

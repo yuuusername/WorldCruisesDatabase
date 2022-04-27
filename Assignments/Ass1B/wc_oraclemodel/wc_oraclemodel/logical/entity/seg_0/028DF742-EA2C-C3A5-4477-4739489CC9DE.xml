@@ -86,7 +86,7 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Country_Code" id="80D96DA2-F50A-0E18-2678-DBA6FDCFBD37">
+<Attribute name="Ship_Coun_Reg" id="80D96DA2-F50A-0E18-2678-DBA6FDCFBD37">
 <createdBy>dylan</createdBy>
 <createdTime>2022-04-26 14:56:35 UTC</createdTime>
 <commentInRDBMS><![CDATA[The code of the country in which the ship is registered]]></commentInRDBMS>
@@ -97,8 +97,24 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Op_ID" id="FEC159F8-18F3-7FDC-4F55-A75F15775665">
+<createdBy>dylan</createdBy>
+<createdTime>2022-04-27 02:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[The unique identification for operator]]></commentInRDBMS>
+<generatorID>B909F13F-5A82-C69C-A0A1-7745F77A3322</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="44D0A6B8-E3C4-4548-C1BE-8A40105E31B0" value="true"/>
+</engineerTo>
+<referedAttribute>B92F1B41-DB42-6509-20F1-913A0461CF2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
